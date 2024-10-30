@@ -1,0 +1,22 @@
+{
+    "start": "2024-10-30",
+    "end": "2024-10-30",
+    "testCases": {
+        "partialFailure": {
+            "key": "ABC-123",
+            "numPasses": 1,
+            "numFails": 4
+        },
+        "totalFailure": {
+            "key": "ABC-323",
+            "numPasses": 0,
+            "numFails": 5
+        },
+        "totalPass": {
+            "key": "ABC-223",
+            "numPasses": 10,
+            "numFails": 0
+        }
+    }
+
+}
