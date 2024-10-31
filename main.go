@@ -11,6 +11,16 @@ func main() {
 	filename := os.Args[1]
 	fmt.Println(filename)
 
+	// If existing test execution, set testExecution key
+	// retrieve value from command line args
+
+	// Else, add required information to data
+	getTestExecutionData()
+
+	// for test case in json file
+	// get key, and overall status (pass/fail)
+
+	// --------------------------
 	// f, err := os.Open(filename)
 	// if err != nil {
 	// 	fmt.Println("Error:", err)
@@ -27,7 +37,7 @@ func main() {
 	// fmt.Printf("%v bytes: %v\n", fileText, string(fileBytes[:fileText]))
 }
 
-// Check command line args, display helpful error messages
+// checkArgs should validate command line args and display helpful error messages where possible
 func checkArgs(args []string) {
 	// Check if there are enough args
 	if len(args) < 2 {
@@ -49,4 +59,8 @@ func checkArgs(args []string) {
 	}
 	fmt.Println(fileInfo)
 	// if args[1]
+}
+
+func getTestExecutionData() {
+
 }
