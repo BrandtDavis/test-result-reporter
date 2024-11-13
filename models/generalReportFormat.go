@@ -1,4 +1,4 @@
-package generalReportFormat
+package models
 
 type existingReportFormat struct {
 	ticketKey string
