@@ -1,19 +1,19 @@
 {
     "start": "2024-10-30",
-    "end": "2024-10-30",
-    "testCases": {
+    "end": "2024-10-31",
+    "tests": {
         "partialFailure": {
-            "key": "ABC-123",
+            "testName": "ABC-123",
             "numPasses": 1,
             "numFails": 4
         },
         "totalFailure": {
-            "key": "ABC-323",
+            "testName": "ABC-323",
             "numPasses": 0,
             "numFails": 5
         },
         "totalPass": {
-            "key": "ABC-223",
+            "testName": "ABC-223",
             "numPasses": 10,
             "numFails": 0
         }
