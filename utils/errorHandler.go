@@ -18,13 +18,4 @@ func CheckArgs(args []string) {
 		fmt.Println("You must provide only 2 arguments: an input and an output file")
 		os.Exit(1)
 	}
-
-	// Check if first arg is an existing file
-	fileInfo, err := os.Stat(args[0])
-	if err != nil {
-		fmt.Println("Error on first arg:", err)
-		os.Exit(1)
-	}
-	fmt.Println(fileInfo)
-	// if args[1]
 }
